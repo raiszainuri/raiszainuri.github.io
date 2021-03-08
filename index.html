@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Marcellus+SC">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Martel">
-    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+  
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rais Zainuri</title>
     <style>
@@ -11,13 +13,15 @@
             background-color: rgb(255, 255, 241);
             vertical-align: middle;
             padding: 5%;
+            margin-left: 10%;
+            margin-right: 10%;
         }
         .header_div{
             text-align: center;
             margin-bottom: 10px;
             margin-top: 10px;
-            margin-left: 10%;
-            margin-right: 10%;
+            /* margin-left: 10%;
+            margin-right: 10%; */
             font-size: 60px;
             color: #322A2A;
             font-family: 'Marcellus SC';
@@ -25,15 +29,13 @@
         .sepatator_line{
             height: 1.4px;
             background-color: rgb(73, 64, 64);
-            margin-left: 10%;
-            margin-right: 10%;
+            /* margin-left: 10%;
+            margin-right: 10%; */
         }
         .title{
             margin-top: 25px;
-            margin-left: 12%;
-            margin-right: 12%;
             letter-spacing: 1px;
-            margin-bottom: 5px;
+            margin-bottom: 10px;
             font-size: 25px;
             font-weight: 600;
             text-align: center;
@@ -41,13 +43,11 @@
             color: #4A4646;
         }
         .main_body{
-            margin-left: 13%;
-            margin-right: 13%;
             letter-spacing: 1px;
             margin-bottom: 5px;
             font-size: 15px;
             text-align: justify;
-            font-family: 'Martel';
+            /* font-family: 'Martel'; */
             color: #4A4646;
         }
         a{
@@ -58,27 +58,38 @@
     </style>
 </head>
 <body>
-    <div class="master">
+    <div class="master main_body">
         <div class="header_div">
             Rais Zainuri
         </div>
         <div class="sepatator_line"></div>
-        <div class="title">An Android Developer and Linux Enthusiast</div>    
-        <div class="main_body">
-            <b>Rais Zainuri</b>, live in West Java, Indonesia. Born in June, 2000. Now, currently studying at a university in Tasikmalaya. Interested in Android and Desktop programming. Swimming and cycling is his hobby. He like something about Linux, like a Shell Programming and Desktop Art.
-            
-            <p>See more about him at 
-            <a target="_blank" href="https://github.com/raiszainuri">github</a>,
-            <a target="_blank" href="https://www.linkedin.com/in/raiszainuri/">linkedIn</a> and 
-            <a target="_blank" href="https://instagram.com/raiszainuri">instagram</a>.
-            <br>
-            <a target="_blank" href="mailto:raiszainuri09@gmail.com">raiszainuri09@gmail.com</a>, <a target="_blank" href="https://t.me/raiszainuri">t.me/raiszainuri</a> is his contact.
+        <div class="row main_body">
+            <div class="col-md-12">
+                <div class="title">An Android Developer and Linux Enthusiast</div>    
+                <div>
+                    <b>Rais Zainuri</b>, live in West Java, Indonesia. Born in June, 2000. Now, currently studying at a university in Tasikmalaya. Interested in Android and Desktop programming. Swimming and cycling is his hobby. He like something about Linux, like a Shell Programming and Desktop Art.
+                    
+                    <p>See more about him at 
+                    <a target="_blank" href="https://github.com/raiszainuri">github</a>,
+                    <a target="_blank" href="https://www.linkedin.com/in/raiszainuri/">linkedIn</a> and 
+                    <a target="_blank" href="https://instagram.com/raiszainuri">instagram</a>.
+                    <br><br>
+                    <a target="_blank" href="mailto:raiszainuri09@gmail.com">raiszainuri09@gmail.com</a>, <a target="_blank" href="https://t.me/raiszainuri">t.me/raiszainuri</a> is his contact.
+                </div>
+            </div>
         </div>
-	<div>
-		YouTube
-	</div>
-
-
+        <div class="row main_body">
+            <div class="container py-2 main_body">
+                <div class="row" data-masonry='{"percentPosition": true }'>
+                    <div class="col-md-6 py-2">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam deleniti nostrum placeat aliquid, delectus reprehenderit assumenda quibusdam quia molestiae, voluptas provident laudantium tenetur? Alias hic esse sit minima aliquam quaerat!
+                    </div>
+                    <div class="col-md-6 py-2">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam deleniti nostrum placeat aliquid,
+                    </div>
+                </div>
+            </div>  
+        </div>      
     </div>
 </body>
 </html>

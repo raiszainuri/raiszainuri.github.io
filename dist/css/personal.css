@@ -6,7 +6,19 @@
     background-color: rgb(255, 255, 255);
     margin: auto;
     width: 680px;
+    line-height: 1.5em;    
+    text-align: left;
+    color: var(--text_color);
+}
+
+.home {
     padding-top: 7%;
+    font-size: 16px;
+}
+
+.blog {
+    padding-top: 7%;
+    font-size: 20px;
 }
 
 .sepatator_line {
@@ -21,6 +33,7 @@
     .master {
         width: 80%;
     }
+
     .sepatator_line {
         margin-left: 2%;
         margin-right: 2%;
@@ -31,6 +44,7 @@
     .master {
         width: 90%;
     }
+
     .sepatator_line {
         margin-left: 2%;
         margin-right: 2%;
@@ -38,11 +52,11 @@
 }
 
 .header_div {
-    color: rgb(87, 85, 85);
+    color: rgb(59, 58, 58);
     font-weight: 600;
     text-align: center;
-    font-size: 48px;
-    margin-bottom: 1.5%;
+    font-size: 38px;
+    margin-bottom: 10px;
     font-family: 'Times';
 }
 
@@ -55,13 +69,6 @@
     color: var(--text_color);
 }
 
-.main_body {
-    line-height: 1.5em;
-    font-size: 16px;
-    text-align: left;
-    color: var(--text_color);
-}
-
 a {
     color: var(--text_color);
     font-weight: 500;
@@ -69,7 +76,6 @@ a {
 }
 
 a.subtitle {
-    /* color: #5e48b1; */
     font-weight: 600;
     text-decoration: none;
 }

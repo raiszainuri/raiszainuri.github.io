@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="../../../../dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../../dist/css/personal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@raiszainuri | memperbaiki font netbeans yang rusak</title>
+</head>
+<body>
+    <div class="master blog">
+        <div class="header_div">
+            memperbaiki font netbeans yang rusak
+        </div>
+        <p class="info_blog">
+            
+    21 Agustus 2021
+
+        </p>
+        <br>
+        <div class="">
+            <div class="row">
+                
+    <p>
+        Bismillah,
+    </p>
+    <p>
+        Halo teman-teman!,<br>Kali ini masalah yang dihadapi yaitu font pada netbeans yang rusak, kata lainnya tidak <i>smooth</i>. hal tersebut karena netbeans dibuat dengan Java, sehingga font pada netbeans diatur oleh Java. <a href=""><sub>[1]</sub></a>
+    </p>
+    <div class="title">
+        
+    </div>
+    <p>
+        Langkah yang perlu dilakukan adalah menambah <i>config</i> pada folder .netbeans,
+        <br>
+            <span class="location_span">~/.netbeans/version/etc/netbeans.conf</span>
+        <br>
+        dengan isian config :
+        <br>
+        <div class="code_div master">
+            <span>netbeans_default_options="[...]-J-Dswing.aatext=TRUE -J-Dawt.useSystemAAFontSettings=on"</span> 
+        </div>
+    </p>
+    <p>
+        <i>nb: jika file tsb tidak ada, teman-teman buat dulu filenya,</i>
+        <br>
+        <br>
+        lalu teman-teman buka kembali aplikasi netbeansnya!
+        <img src="../../../../assets/SS_210822_051643.png" class="w-100 img_r" alt="">
+    </p>
+
+            </div>
+        </div>
+    </div>
+    <footer class="master footer">
+  <span class="">from @raiszainuri, using <a href="">mini-SSG</a></span>
+</footer>
+</body>

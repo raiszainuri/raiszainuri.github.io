@@ -10,7 +10,6 @@
     line-height: 1.5em;    
     text-align: left;
     color: var(--text_color);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home {
@@ -60,7 +59,7 @@
     text-align: left;
     font-size: 38px;
     margin-bottom: 10px;
-    font-family: 'Cooper';
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .title {

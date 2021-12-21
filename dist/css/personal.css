@@ -10,6 +10,7 @@
     line-height: 1.5em;    
     text-align: left;
     color: var(--text_color);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .home {

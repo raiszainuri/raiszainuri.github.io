@@ -1,0 +1,10 @@
+{
+    "success": {
+        "info": {
+            "name": "name user",
+            "role": "+62896",
+            "address": "email@gmail.com"
+        },
+        "msg": "Data berhasil diambil"
+    }
+}

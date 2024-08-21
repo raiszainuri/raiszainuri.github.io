@@ -123,6 +123,6 @@ img:hover {
 }
 
 .summary{
-    text-align: justify;
+    text-align: left;
     text-justify: inter-word;
 }

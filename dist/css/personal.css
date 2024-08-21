@@ -6,7 +6,7 @@
 .master {
     background-color: rgb(255, 255, 255);
     margin: auto;
-    width: 680px;
+    width: 780px;
     line-height: 1.5em;    
     text-align: left;
     color: var(--text_color);
@@ -120,4 +120,9 @@ img:hover {
 
 .img_r{
     border-radius: var(--radius);
+}
+
+.summary{
+    text-align: justify;
+    text-justify: inter-word;
 }

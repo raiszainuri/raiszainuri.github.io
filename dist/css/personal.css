@@ -83,7 +83,7 @@ a.subtitle {
 }
 
 img {
-    filter: grayscale(100%);
+    filter: grayscale(0%);
 }
 
 img:hover {

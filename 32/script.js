@@ -1,178 +1,178 @@
 const alumniData = [
     {
         "nickname": "Adrian",
-        "campus": "Nama Universitas",
+        "campus": "Universitas Trisakti",
         "ig": "",
         "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "photo": ""
     },
     {
         "nickname": "Ahmad",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Amikom Yogyakarta",
+        "ig": "https://www.instagram.com/ahmadaldiyanto/",
+        "linkedin": "https://www.linkedin.com/in/ahmad-aldiyanto-87b657330/",
+        "photo": "https://lh3.googleusercontent.com/d/1673O6owkZHG7pTr_CTqdU_imuSalepfd"
     },
     {
         "nickname": "Akbar",
-        "campus": "Nama Universitas",
+        "campus": "Universitas Singaperbangsa",
         "ig": "",
         "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "photo": ""
     },
     {
         "nickname": "Alvin",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Bunda Mulia",
+        "ig": "https://www.instagram.com/alvxnh?igsh=MnJzYTZyNGx2emwz",
+        "linkedin": "https://www.linkedin.com/in/alvinhartono/",
+        "photo": "https://lh3.googleusercontent.com/d/1SfLBzYZeMT2IRjuTtJezRl--tJFfMZlB"
     },
     {
         "nickname": "Candra",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Negeri Surabaya",
+        "ig": "https://instagram.com/cbar_bagus",
+        "linkedin": "https://www.linkedin.com/in/candra-bagus-ainur-rochman",
+        "photo": "https://lh3.googleusercontent.com/d/1NrMN8vVGGR3WXCw_vS7k0gSZlp9blUJD"
     },
     {
         "nickname": "Dewi",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Pelita Harapan",
+        "ig": "https://www.instagram.com/dewipuspita______",
+        "linkedin": "https://www.linkedin.com/in/dewi-puspita-241517272/",
+        "photo": ""
     },
     {
         "nickname": "Eko",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Terbuka",
+        "ig": "https://www.instagram.com/one.eko",
+        "linkedin": "https://www.linkedin.com/in/eko-kurnia",
+        "photo": "https://lh3.googleusercontent.com/d/1J2CrQrwLytjfOxn2TVNhEFm4O3sjQ0V5"
     },
     {
         "nickname": "Falih",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Institut Digital Ekonomi LPKIA",
+        "ig": "https://www.instagram.com/17frnaufr/",
+        "linkedin": "https://linkedin.com/in/falih-naufal-254a80192",
+        "photo": ""
     },
     {
         "nickname": "Fisan",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Amikom Yogyakarta",
+        "ig": "https://www.instagram.com/f_i_s_a_n/",
+        "linkedin": "https://www.linkedin.com/in/fisan-syafa-nayoma-b250082a9?trk=contact-info",
+        "photo": "https://lh3.googleusercontent.com/d/1C7bhAOCIgJpgFYauxbmjM4Bib2XbLtqw"
     },
     {
         "nickname": "Tanto",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Sekolah Tinggi Teknologi Terpadu Nurul Fikri",
+        "ig": "https://www.instagram.com/tnto.ajah",
+        "linkedin": "https://www.linkedin.com/in/tantomukti/",
+        "photo": "https://lh3.googleusercontent.com/d/1eeoSVf35wIwx3z5bJccX22u037IBpKOq"
     },
     {
-        "nickname": "Melda",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "nickname": "Imelda",
+        "campus": "Universitas Telkom Purwokerto",
+        "ig": "https://www.instagram.com/imeldaapd_",
+        "linkedin": "https://www.linkedin.com/in/imeldapdd/",
+        "photo": "https://lh3.googleusercontent.com/d/1d-zbP4sO8W4AnO-FdHMTutV0m25USVsl"
     },
     {
         "nickname": "Anin",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Politeknik Negeri Jakarta",
+        "ig": "https://www.instagram.com/kasanindit/",
+        "linkedin": "https://www.linkedin.com/in/kasamira-anindita-qairia-9aa88524b/",
+        "photo": ""
     },
     {
         "nickname": "Hasfi",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Riau",
+        "ig": "https://www.instagram.com/hasfi.ayd/",
+        "linkedin": "https://www.linkedin.com/in/hashfiayd/",
+        "photo": "https://lh3.googleusercontent.com/d/1K-rCyvrGdBST5ocft41j_WBkPYjBc-nc"
     },
     {
-        "nickname": "Aril",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "nickname": "Hamzah",
+        "campus": "Universitas Jember",
+        "ig": "https://www.instagram.com/amirull.hamzah/",
+        "linkedin": "https://www.linkedin.com/in/moh-amirul-hamzah/",
+        "photo": "https://lh3.googleusercontent.com/d/1uwFonJ9cyDcb3s2xtkr1JFYi61-39PTg"
     },
     {
         "nickname": "Ardi",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Islam Riau",
+        "ig": "https://www.instagram.com/ardiansyah_rlrl?igsh=MzMyeDFmdDFjdXA5",
+        "linkedin": "https://www.linkedin.com/in/muhammad-ardiansyah-9547282a4",
+        "photo": "https://lh3.googleusercontent.com/d/1p1eWlDIQPKBEe8OdDKT67YEfM4Y2uW8P"
     },
     {
         "nickname": "Jalil",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Raharja",
+        "ig": "https://www.instagram.com/jalilasyakur?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+        "linkedin": "https://www.linkedin.com/in/jalilasyakur/",
+        "photo": "https://lh3.googleusercontent.com/d/1QlSuHHKrLqIFEe09XWkgBAg78WY8AFwF"
     },
     {
         "nickname": "Rizki",
-        "campus": "Nama Universitas",
+        "campus": "Politeknik Negeri Jakarta",
         "ig": "",
         "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "photo": ""
     },
     {
-        "nickname": "Nara",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "nickname": "Narapati",
+        "campus": "Universitas Pasundan",
+        "ig": "https://www.instagram.com/lio_keysa24/",
+        "linkedin": "https://www.linkedin.com/in/narapati-keysa/",
+        "photo": "https://lh3.googleusercontent.com/d/1jSdjX-H5uGwX_Z-5dlXksU2zdOZRW3Im"
     },
     {
         "nickname": "Danang",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Singaperbangsa Karawang",
+        "ig": "https://www.instagram.com/prdnwhyu_",
+        "linkedin": "https://www.linkedin.com/in/pradana-wahyu-hidayanto",
+        "photo": "https://lh3.googleusercontent.com/d/1db1Y55n54t8LAIw51rg36FRZkmOQ8V9c"
     },
     {
         "nickname": "Raja",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Riau",
+        "ig": "https://www.instagram.com/ptrarmnd/",
+        "linkedin": "https://www.linkedin.com/authwall?trk=gf&trkInfo=AQFvDFGmoSQXFgAAAZQGznfwIs_qzxCHIF4ek8okkEg-Vg-pMxYE5LulH-qg1XANcfWZc5kr5Wc5SimgkI3M7SQuTG8YVdKF_Y7AIa0OT-HLCNcNOGwXpN0UEY_neIUWK2jCOvs=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fin%2Fptr4rmnd",
+        "photo": "https://lh3.googleusercontent.com/d/1LnxFygTQV2pBWTHdLLV-qX060z5uguvl"
     },
     {
         "nickname": "Reza",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas PGRI Semarang",
+        "ig": "https://www.instagram.com/__rezaadityaa/",
+        "linkedin": "https://linkedin.com/in/rezaaditya04/",
+        "photo": ""
     },
     {
         "nickname": "Ryan",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Teknologi Bandung",
+        "ig": "https://www.instagram.com/ryan.rizaldy99/",
+        "linkedin": "https://www.linkedin.com/in/ryan-rizaldy-a00164251",
+        "photo": "https://lh3.googleusercontent.com/d/1Sr0K5forzHoIJ7SKU8BBBCATx4PLAOvb"
     },
     {
         "nickname": "Tika",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Nusa Putra",
+        "ig": "https://www.instagram.com/nrvti_ka/profilecard/?igsh=ZDY2NXdoZmF6NXRk",
+        "linkedin": "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+        "photo": "https://lh3.googleusercontent.com/d/1VPGLTr1XEg7HCc24ZumIfr9IZE8jz4Mw"
     },
     {
         "nickname": "Abel",
-        "campus": "Nama Universitas",
+        "campus": "Universitas Indonesia",
         "ig": "",
         "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "photo": ""
     },
     {
         "nickname": "Yunus",
-        "campus": "Nama Universitas",
-        "ig": "",
-        "linkedin": "",
-        "photo": "https://img.freepik.com/premium-vector/vector-flat-illustration-grayscale-avatar-user-profile-person-icon-gender-neutral-silhouette-profile-picture-suitable-social-media-profiles-icons-screensavers-as-templatex9xa_719432-875.jpg"
+        "campus": "Universitas Negeri Surabaya",
+        "ig": "https://www.instagram.com/yunsdh_",
+        "linkedin": "https://www.linkedin.com/in/yunus-dhanzky-h-a90521294/",
+        "photo": "https://lh3.googleusercontent.com/d/1C4dM0O4Rhg460wE01Iura3jHkxw8pnPf"
     }
 ];
 
@@ -213,7 +213,7 @@ function createAlumniCard(alumni) {
     card.className = 'alumni-card';
 
     const img = document.createElement('img');
-    if (alumni.photo === null) {img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/340px-Default_pfp.svg.png";}
+    if (alumni.photo === "") {img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Default_pfp.svg/340px-Default_pfp.svg.png";}
     else {img.src = alumni.photo;}
     img.alt = `${alumni.nickname} photo`;
     
@@ -256,7 +256,7 @@ function assignRandomImages(alumniData, images) {
     return alumniData.map(alumni => {
         return {
             ...alumni,
-            photo: images[Math.floor(Math.random() * images.length)]
+            // photo: images[Math.floor(Math.random() * images.length)]
         };
     });
 }

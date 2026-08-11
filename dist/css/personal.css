@@ -3,6 +3,10 @@
     --radius: 5px;
 }
 
+body {
+    background-color: #ffffff;
+}
+
 .master {
     background-color: rgb(255, 255, 255);
     margin: auto;

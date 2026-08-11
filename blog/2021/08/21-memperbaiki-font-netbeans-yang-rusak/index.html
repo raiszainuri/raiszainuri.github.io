@@ -1,57 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memperbaiki Font Netbeans – Rais Zainuri</title>
     <link rel="stylesheet" href="../../../../dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../../../dist/css/personal.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@raiszainuri | memperbaiki font netbeans yang rusak</title>
+    <link rel="stylesheet" href="../../../../dist/css/fancy.css">
 </head>
 <body>
-    <div class="master blog">
-        <div class="header_div">
-            memperbaiki font netbeans yang rusak
-        </div>
-        <p class="info_blog">
-            
-    21 Agustus 2021
 
-        </p>
-        <br>
-        <div class="">
-            <div class="row">
-                
-    <p>
-        Bismillah,
-    </p>
-    <p>
-        Halo teman-teman!,<br>Kali ini masalah yang dihadapi yaitu font pada netbeans yang rusak, kata lainnya tidak <i>smooth</i>. hal tersebut karena netbeans dibuat dengan Java, sehingga font pada netbeans diatur oleh Java. <a href=""><sub>[1]</sub></a>
-    </p>
-    <div class="title">
-        
+<!-- MODE SPLASH -->
+<div id="mode-splash">
+    <div class="splash-inner">
+        <div class="splash-name">Rais Zainuri</div>
+        <h2>Choose your experience</h2>
+        <div class="splash-options">
+            <button class="splash-btn plain-btn" onclick="pickMode('plain')">
+                <div class="btn-label">Plain</div>
+                <div class="btn-desc">Clean, minimal, text-first</div>
+            </button>
+            <button class="splash-btn fancy-btn" onclick="pickMode('fancy')">
+                <div class="btn-label">✦ Fancy</div>
+                <div class="btn-desc">Dark, modern, styled</div>
+            </button>
+        </div>
+        <div class="splash-note">Your choice will be remembered</div>
     </div>
-    <p>
-        Langkah yang perlu dilakukan adalah menambah <i>config</i> pada folder .netbeans,
-        <br>
-            <span class="location_span">~/.netbeans/version/etc/netbeans.conf</span>
-        <br>
-        dengan isian config :
-        <br>
-        <div class="code_div master">
-            <span>netbeans_default_options="[...]-J-Dswing.aatext=TRUE -J-Dawt.useSystemAAFontSettings=on"</span> 
-        </div>
-    </p>
-    <p>
-        <i>nb: jika file tsb tidak ada, teman-teman buat dulu filenya,</i>
-        <br>
-        <br>
-        lalu teman-teman buka kembali aplikasi netbeansnya!
-        <img src="../../../../assets/SS_210822_051643.png" class="w-100 img_r" alt="">
-    </p>
+</div>
 
+<!-- MODE TOGGLE -->
+<button id="mode-toggle" onclick="toggleMode()">Switch Mode</button>
+
+<!-- ===== PLAIN ===== -->
+<div id="plain-content">
+    <div class="master blog">
+        <div class="header_div">memperbaiki font netbeans yang rusak</div>
+        <p class="info_blog">21 Agustus 2021</p>
+        <br>
+        <div class="row">
+            <p>Bismillah,</p>
+            <p>
+                Halo teman-teman!,<br>
+                Kali ini masalah yang dihadapi yaitu font pada netbeans yang rusak, kata lainnya tidak <i>smooth</i>.
+                Hal tersebut karena netbeans dibuat dengan Java, sehingga font pada netbeans diatur oleh Java.
+            </p>
+            <p>
+                Langkah yang perlu dilakukan adalah menambah <i>config</i> pada folder .netbeans,
+                <br>
+                <span class="location_span">~/.netbeans/version/etc/netbeans.conf</span>
+                <br>
+                dengan isian config:
+            </p>
+            <div class="code_div master">
+                <span>netbeans_default_options="[...]-J-Dswing.aatext=TRUE -J-Dawt.useSystemAAFontSettings=on"</span>
             </div>
+            <p>
+                <i>nb: jika file tsb tidak ada, teman-teman buat dulu filenya,</i>
+                <br><br>
+                lalu teman-teman buka kembali aplikasi netbeansnya!
+            </p>
+            <img src="../../../../assets/SS_210822_051643.png" class="w-100 img_r" alt="Netbeans font fix screenshot">
         </div>
     </div>
     <footer class="master footer">
-  <span class="">from @raiszainuri, using <a href="">mini-SSG</a></span>
-</footer>
+        <span>from <a href="../../../../">@raiszainuri</a> · <a href="../../../list_blog/">← blog list</a></span>
+    </footer>
+</div>
+
+<!-- ===== FANCY ===== -->
+<div id="fancy-content" style="display:none">
+    <div class="master home" style="margin:auto; padding:0 24px;">
+
+        <div class="fancy-hero" style="padding-bottom:32px; margin-bottom:32px;">
+            <div class="fancy-hero-text">
+                <h1 style="font-size:1.4rem; line-height:1.4;">Memperbaiki Font Netbeans yang Rusak</h1>
+                <div class="fancy-tagline">21 Agustus 2021 · Arch Linux · Java</div>
+                <div class="fancy-links" style="margin-top:14px;">
+                    <a href="../../../list_blog/">← Blog List</a>
+                    <a href="../../../../">⌂ Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="fancy-section">
+            <p>Bismillah,</p>
+            <p>
+                Halo teman-teman! Kali ini masalah yang dihadapi yaitu font pada netbeans yang rusak — kata lainnya tidak <i>smooth</i>.
+                Hal tersebut karena netbeans dibuat dengan Java, sehingga font pada netbeans diatur oleh Java.
+            </p>
+            <p>
+                Langkah yang perlu dilakukan adalah menambah <i>config</i> pada folder <code style="background:rgba(255,255,255,0.08); padding:2px 7px; border-radius:5px; font-size:0.85rem;">.netbeans</code>:
+            </p>
+            <div style="background:rgba(255,255,255,0.05); border:1px solid rgba(255,255,255,0.1); border-radius:8px; padding:10px 14px; font-family:monospace; font-size:0.82rem; color:#94a3b8; margin:12px 0;">
+                ~/.netbeans/version/etc/netbeans.conf
+            </div>
+            <p>dengan isian config:</p>
+            <div style="background:#0d0d1a; border:1px solid rgba(99,102,241,0.25); border-radius:10px; padding:14px 18px; font-family:monospace; font-size:0.82rem; color:#a5b4fc; margin:12px 0; overflow-x:auto;">
+                netbeans_default_options="[...]-J-Dswing.aatext=TRUE -J-Dawt.useSystemAAFontSettings=on"
+            </div>
+            <p><i style="color:#64748b;">nb: jika file tsb tidak ada, buat dulu filenya, lalu buka kembali aplikasi netbeansnya!</i></p>
+            <img src="../../../../assets/SS_210822_051643.png"
+                style="width:100%; border-radius:10px; margin-top:16px; border:1px solid rgba(255,255,255,0.08);"
+                alt="Netbeans font fix screenshot">
+        </div>
+
+        <div class="fancy-footer">raiszainuri.github.io</div>
+    </div>
+</div>
+
+<script src="../../../../dist/js/mode.js"></script>
 </body>
+</html>

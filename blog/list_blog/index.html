@@ -1,30 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog – Rais Zainuri</title>
     <link rel="stylesheet" href="../../dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../dist/css/personal.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@raiszainuri | list</title>
+    <link rel="stylesheet" href="../../dist/css/fancy.css">
 </head>
 <body>
-    <div class="master blog">
-        <div class="header_div">
-            list blog
+
+<!-- MODE SPLASH -->
+<div id="mode-splash">
+    <div class="splash-inner">
+        <div class="splash-name">Rais Zainuri</div>
+        <h2>Choose your experience</h2>
+        <div class="splash-options">
+            <button class="splash-btn plain-btn" onclick="pickMode('plain')">
+                <div class="btn-label">Plain</div>
+                <div class="btn-desc">Clean, minimal, text-first</div>
+            </button>
+            <button class="splash-btn fancy-btn" onclick="pickMode('fancy')">
+                <div class="btn-label">✦ Fancy</div>
+                <div class="btn-desc">Dark, modern, styled</div>
+            </button>
         </div>
-        <p class="info_blog">
-            
-        </p>
+        <div class="splash-note">Your choice will be remembered</div>
+    </div>
+</div>
+
+<!-- MODE TOGGLE -->
+<button id="mode-toggle" onclick="toggleMode()">Switch Mode</button>
+
+<!-- ===== PLAIN ===== -->
+<div id="plain-content">
+    <div class="master blog">
+        <div class="header_div">list blog</div>
+        <p class="info_blog"></p>
         <br>
-        <div class="">
-            <div class="row">
-                <ul class="">
-                    <!-- <li><a href="../2021/08/17-kenapa-dari-basic/">kenapa dari basic?</a></li> -->
-                    <li><a href="../2021/08/21-memperbaiki-font-netbeans-yang-rusak/">memperbaiki font netbeans yang rusak</a></li>
-                </ul>
-            </div>
+        <div class="row">
+            <ul>
+                <li><a href="../2021/08/21-memperbaiki-font-netbeans-yang-rusak/">memperbaiki font netbeans yang rusak</a></li>
+            </ul>
         </div>
     </div>
     <footer class="master footer">
-  <span class="">from @raiszainuri, using <a href="">mini-SSG</a></span>
-</footer>
+        <span>from <a href="../../">@raiszainuri</a></span>
+    </footer>
+</div>
+
+<!-- ===== FANCY ===== -->
+<div id="fancy-content" style="display:none">
+    <div class="master home" style="margin:auto; padding:0 24px;">
+
+        <div class="fancy-hero" style="padding-bottom:32px; margin-bottom:32px;">
+            <div class="fancy-hero-text">
+                <h1 style="font-size:1.6rem;">Blog</h1>
+                <div class="fancy-tagline">Writing about dev, tools, and experiences</div>
+                <div class="fancy-links" style="margin-top:14px;">
+                    <a href="../../">← Back to Portfolio</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="#">Posts</a></h2>
+            <ul class="fancy-blog-list">
+                <li>
+                    <a href="../2021/08/21-memperbaiki-font-netbeans-yang-rusak/">Fix Anti-Aliasing Java App Font in Arch Linux</a>
+                    Memperbaiki font netbeans yang rusak / tidak smooth pada Arch Linux.
+                </li>
+            </ul>
+        </div>
+
+        <div class="fancy-footer">raiszainuri.github.io</div>
+    </div>
+</div>
+
+<script src="../../dist/js/mode.js"></script>
 </body>
+</html>

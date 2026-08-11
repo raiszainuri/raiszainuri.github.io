@@ -9,6 +9,7 @@
     <title>Rais Zainuri - Mobile Developer Portfolio</title>
     <link rel="stylesheet" href="./dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./dist/css/personal.css">
+    <link rel="stylesheet" href="./dist/css/fancy.css">
     <link rel="canonical" href="https://raiszainuri.github.io/">
     <meta property="og:title" content="Rais Zainuri - Mobile Developer Portfolio">
     <meta property="og:description" content="Rais Zainuri is an experienced Mobile Developer with experience building Android and iOS applications using Kotlin, Java, and Swift. Skilled in MVVM architecture and team collaboration.">
@@ -21,6 +22,32 @@
     <meta name="twitter:image" content="https://raiszainuri.github.io/images/profile.jpg">
 </head>
 <body>
+
+<!-- ===================== MODE SPLASH ===================== -->
+<div id="mode-splash">
+    <div class="splash-inner">
+        <div class="splash-name">Rais Zainuri</div>
+        <h2>Choose your experience</h2>
+        <div class="splash-options">
+            <button class="splash-btn plain-btn" onclick="pickMode('plain')">
+                <div class="btn-label">Plain</div>
+                <div class="btn-desc">Clean, minimal, text-first</div>
+            </button>
+            <button class="splash-btn fancy-btn" onclick="pickMode('fancy')">
+                <div class="btn-label">✦ Fancy</div>
+                <div class="btn-desc">Dark, modern, styled</div>
+            </button>
+        </div>
+        <div class="splash-note">Your choice will be remembered</div>
+    </div>
+</div>
+
+<!-- ===================== MODE TOGGLE ===================== -->
+<button id="mode-toggle" onclick="toggleMode()">Switch Mode</button>
+
+
+<!-- ===================== PLAIN MODE ===================== -->
+<div id="plain-content">
     <div class="master home">
         <div class="">
             <div class="row">
@@ -28,25 +55,31 @@
                     <header>
                         <h1>A Mobile Developer</h1>
                     </header>
-                    <br>    
+                    <br>
                     <section class="summary">
                         <p><b>Rais Zainuri</b> is a Mobile Developer with experience building Android and iOS applications using Kotlin, Java, and Swift. Skilled in implementing MVVM architecture, developing end-to-end application features, and collaborating within multidisciplinary teams. Over 2+ years of mobile development experience and 5 years in Software Development.</p>
-                        <p>See more about him at 
+                        <p>See more about him at
                             <a target="_blank" href="https://github.com/raiszainuri">GitHub</a> and
                             <a target="_blank" href="https://www.linkedin.com/in/raiszainuri/">LinkedIn</a>.
                         </p>
-                        <p>You can contact him at <a target="_blank" href="mailto:raiszainuri09@gmail.com">raiszainuri09@gmail.com</a> or <a target="_blank" href="tel:+6289624204094">+6289624204094</a></p>
+                        <p>You can contact him at <a target="_blank" href="mailto:raiszainuri09@gmail.com">raiszainuri09@gmail.com</a> or <a target="_blank" href="https://wa.me/+6289624204094">+6289624204094</a></p>
                     </section>
                 </div>
-
-                <!-- Section for Work Experience, Education, and Skills -->
                 <div class="container py-2 main_body home">
                     <div class="row">
                         <section class="col-md-12 py-2">
                             <h2><a class="subtitle" href="#">Work Experience</a></h2>
                             <ul>
                                 <li>
-                                    <strong>Jr. iOS Developer - Full time Internship at Apple Developer Academy @Binus</strong> (March 2025 – Des 2025, South Tangerang, ID)
+                                    <strong>Mobile & Desktop Developer - Full time at Holtrack</strong> (Feb 2026 – Present · 6 months · Jakarta, ID)
+                                    <ul>
+                                        <li>Integrated hardware systems with Android and desktop applications.</li>
+                                        <li>Deployed and implemented products at client sites, ensuring seamless system integration and operational readiness.</li>
+                                        <li>Optimized Android performance by refactoring hardware integration and RFID data processing workflows to improve efficiency and responsiveness.</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <strong>Jr. iOS Developer - Full time Internship at Apple Developer Academy @Binus</strong> (March 2025 – Des 2025 · 9 months · South Tangerang, ID)
                                     <ul>
                                         <li>Built the Selakata iOS app, a personalized auditory training tool using AI voice cloning, serving as both frontend developer and architecture lead.</li>
                                         <li>Managed App Store Connect processes: build distribution, TestFlight, and publishing preparation.</li>
@@ -54,7 +87,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <strong>Mobile Development Mentor - Part time at Bangkit Academy 2024</strong> (Feb 2024 – Jan 2025, Remote)
+                                    <strong>Mobile Development Mentor - Part time at Bangkit Academy 2024</strong> (Feb 2024 – Jan 2025 · 11 months · Remote)
                                     <ul>
                                         <li>Successfully guided mentees who achieved Distinction Graduate (Top 10% in Mobile Development Path).</li>
                                         <li>Mentored 23–25 students per batch across two cohorts, providing technical guidance and personalized support.</li>
@@ -63,7 +96,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <strong>Android Developer - Internship at PT. Omnifit Solusi Nusantara</strong> (Dec 2023 – June 2024, Remote)
+                                    <strong>Android Developer - Internship at PT. Omnifit Solusi Nusantara</strong> (Dec 2023 – June 2024 · 6 months · Remote)
                                     <ul>
                                         <li>Developed Android applications using Java and Kotlin based on required business workflows.</li>
                                         <li>Refactored legacy codebases to MVVM to improve maintainability and scalability, and cleaned up data flow to reduce technical debt across important sections of the app.</li>
@@ -71,7 +104,7 @@
                                     </ul>
                                 </li>
                                 <li>
-                                    <strong>Android Developer - Full time at Prilude Studio</strong> (Sep 2018 – Sep 2019, Tasikmalaya, ID)
+                                    <strong>Android Developer - Full time at Prilude Studio</strong> (Sep 2018 – Sep 2019 · 1 year · Tasikmalaya, ID)
                                     <ul>
                                         <li>Developed Android Java applications, including marketplace, online transportation, PPOB, and various startup projects.</li>
                                         <li>Integrated Google Maps API and implemented payment gateway solutions.</li>
@@ -139,12 +172,12 @@
                         <section class="col-md-12 py-2">
                             <h2><a class="subtitle" href="#">Skills</a></h2>
                             <ul>
-                                <li>Advanced in Java, Kotlin, Swift, XML, PHP, C#</li>
-                                <li>Frameworks: Jetpack Compose, SwiftUI, LINQ</li>
-                                <li>Library: Coroutine Flow, AVFoundation</li>
-                                <li>DBMS: phpMyAdmin, SQL Server</li>
-                                <li>Developer Tools: Git, Firebase, Android Studio, Xcode, SQL Server</li>
-                                <li>Relevant Skills: Clean Code, MVVM Architecture, CodeIgniter, API Integration, Audio Management</li>
+                                <li><strong>Languages:</strong> Kotlin, Java, Swift, XML, PHP, C#</li>
+                                <li><strong>Frameworks & UI:</strong> Jetpack Compose, SwiftUI, LINQ</li>
+                                <li><strong>Libraries:</strong> Coroutine Flow, AVFoundation</li>
+                                <li><strong>Developer Tools:</strong> Git, Firebase, Android Studio, Xcode</li>
+                                <li><strong>Database:</strong> SQL Server, phpMyAdmin</li>
+                                <li><strong>Architecture & Practices:</strong> MVVM, Clean Code, API Integration, Audio Management</li>
                             </ul>
                         </section>
 
@@ -159,26 +192,18 @@
                         </section>
                         <section class="col-md-12 py-2">
                             <h2><a class="subtitle" href="https://github.com/raiszainuri/dotfiles">Backup Configuration Repository</a></h2>
-                            <p>
-                                I've created a GitHub repository to store and manage my backup configuration files used on my Linux desktop. This repository includes various configuration files that are essential for maintaining and personalizing my Linux environment. It serves as a backup solution to easily restore my setup in case of system failure or migration to a new machine.
-                            </p>
-                            <p>
-                                The repository contains configuration files for various tools and applications I use regularly. You will find files for:
-                                <ul>
-                                    <li>System-wide configurations</li>
-                                    <li>Text editors and IDEs (e.g., Neovim)</li>
-                                    <li>Shell environment (e.g., fish, bash)</li>
-                                    <li>Window manager and desktop environment settings</li>
-                                    <li>Custom scripts and utilities</li>
-                                </ul>
-                            </p>
-                            <p>
-                                By maintaining this repository, I ensure that my Linux environment is consistently set up, and I can easily share my configuration with others who may find it useful. Feel free to explore the repository and use it as a reference for your own configurations.
-                            </p>
-                            <p>
-                                Check it out <a href="https://github.com/raiszainuri/dotfiles" target="_blank">here</a>.
-                            </p>
-                        </section>  
+                            <p>I've created a GitHub repository to store and manage my backup configuration files used on my Linux desktop. This repository includes various configuration files that are essential for maintaining and personalizing my Linux environment. It serves as a backup solution to easily restore my setup in case of system failure or migration to a new machine.</p>
+                            <p>The repository contains configuration files for various tools and applications I use regularly. You will find files for:</p>
+                            <ul>
+                                <li>System-wide configurations</li>
+                                <li>Text editors and IDEs (e.g., Neovim)</li>
+                                <li>Shell environment (e.g., fish, bash)</li>
+                                <li>Window manager and desktop environment settings</li>
+                                <li>Custom scripts and utilities</li>
+                            </ul>
+                            <p>By maintaining this repository, I ensure that my Linux environment is consistently set up, and I can easily share my configuration with others who may find it useful. Feel free to explore the repository and use it as a reference for your own configurations.</p>
+                            <p>Check it out <a href="https://github.com/raiszainuri/dotfiles" target="_blank">here</a>.</p>
+                        </section>
                         <section class="col-md-12 py-2">
                             <h2><a class="subtitle" href="./blog/list_blog">Blog</a></h2>
                             <p>Explore a collection of blog posts that cover a wide range of topics related to Android development, software engineering best practices, and personal experiences in the tech industry.</p>
@@ -195,12 +220,259 @@
                                 <li><a href="./ml/index.html">Lung Check</a> - A project to detect lung diseases using x-ray images.</li>
                             </ul>
                             <p>Explore the Machine Learning section <a href="./ml/index.html">here</a> to dive into more projects and resources.</p>
-                        </section>                        
+                        </section>
                     </div>
-                </div>  
+                </div>
             </div>
         </div>
     </div>
-</body>
+</div><!-- end #plain-content -->
+
+
+<!-- ===================== FANCY MODE ===================== -->
+<div id="fancy-content" style="display:none">
+    <div class="master home" style="margin:auto; padding: 0 24px;">
+
+        <!-- Hero -->
+        <div class="fancy-hero">
+            <img src="./images/profile.jpg" alt="Rais Zainuri" class="fancy-hero-avatar">
+            <div class="fancy-hero-text">
+                <h1>Rais Zainuri</h1>
+                <div class="fancy-tagline">Mobile Developer · Android · iOS · 3+ Years</div>
+                <p style="color:#64748b; font-size:0.88rem; margin:8px 0 0; line-height:1.65;">
+                    Building Android & iOS apps with Kotlin, Java, and Swift.<br>
+                    Currently as Mobile & Desktop Developer @Holtrack.
+                </p>
+                <div class="fancy-links">
+                    <a href="https://github.com/raiszainuri" target="_blank">⌥ GitHub</a>
+                    <a href="https://www.linkedin.com/in/raiszainuri/" target="_blank">in LinkedIn</a>
+                    <a href="mailto:raiszainuri09@gmail.com" target="_blank">✉ Email</a>
+                    <a href="https://wa.me/+6289624204094" target="_blank">✆ Phone</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Work Experience -->
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="#">Work Experience</a></h2>
+            <div class="fancy-exp-item">
+                <div class="exp-title">Mobile & Desktop Developer – Holtrack</div>
+                <div class="exp-period">Feb 2026 – Present · 6 months · Full-time · Jakarta, ID</div>
+                <ul>
+                    <li>Integrated hardware systems with Android and desktop applications.</li>
+                    <li>Deployed and implemented products at client sites, ensuring seamless system integration and operational readiness.</li>
+                    <li>Optimized Android performance by refactoring hardware integration and RFID data processing workflows to improve efficiency and responsiveness.</li>
+                </ul>
+            </div>
+            <div class="fancy-exp-item">
+                <div class="exp-title">Jr. iOS Developer – Apple Developer Academy @Binus</div>
+                <div class="exp-period">March 2025 – Dec 2025 · 9 months · Full-time Internship · South Tangerang, ID</div>
+                <ul>
+                    <li>Built Selakata iOS app — personalized auditory training tool using AI voice cloning.</li>
+                    <li>Served as frontend developer and architecture lead (MVVM Clean Architecture).</li>
+                    <li>Managed App Store Connect: build distribution, TestFlight, and publishing prep.</li>
+                    <li>Collaborated with PM and cross-functional teams to refine features and UX.</li>
+                </ul>
+            </div>
+            <div class="fancy-exp-item">
+                <div class="exp-title">Mobile Development Mentor – Bangkit Academy 2024</div>
+                <div class="exp-period">Feb 2024 – Jan 2025 · 11 months · Part-time · Remote</div>
+                <ul>
+                    <li>Guided mentees who achieved Distinction Graduate (Top 10% in Mobile Dev Path).</li>
+                    <li>Mentored 23–25 students per batch across two cohorts.</li>
+                    <li>Held weekly consultation sessions and ad-hoc support sessions.</li>
+                </ul>
+            </div>
+            <div class="fancy-exp-item">
+                <div class="exp-title">Android Developer – PT. Omnifit Solusi Nusantara</div>
+                <div class="exp-period">Dec 2023 – June 2024 · 6 months · Internship · Remote</div>
+                <ul>
+                    <li>Developed Android apps using Java and Kotlin per business workflows.</li>
+                    <li>Refactored legacy codebases to MVVM; reduced technical debt.</li>
+                    <li>Integrated real-time databases for dynamic data handling.</li>
+                </ul>
+            </div>
+            <div class="fancy-exp-item">
+                <div class="exp-title">Android Developer – Prilude Studio</div>
+                <div class="exp-period">Sep 2018 – Sep 2019 · 1 year · Full-time · Tasikmalaya, ID</div>
+                <ul>
+                    <li>Built Android Java apps: marketplace, online transportation, PPOB, startups.</li>
+                    <li>Integrated Google Maps API and payment gateway solutions.</li>
+                    <li>Built backend endpoints; collaborated via Git.</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Education -->
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="#">Education</a></h2>
+            <div class="fancy-edu-item">
+                <div class="edu-title">Bachelor of Informatics Engineering – Universitas Perjuangan</div>
+                <div class="edu-period">Jul 2023 – May 2024 · Tasikmalaya, ID · GPA 3.76/4.0</div>
+                <ul><li>Algorithms · Data Structures · OOP · Database</li></ul>
+            </div>
+            <div class="fancy-edu-item">
+                <div class="edu-title"> Informatics Engineering – STMIK Tasikmalaya</div>
+                <div class="edu-period">Sep 2019 – Mar 2023 · Tasikmalaya, ID · GPA 3.71/4.0</div>
+                <ul>
+                    <li>Member of Computer Club Software Engineer division since 2020</li>
+                    <li>GEMASTIK 14 National Software Development Competition 2021</li>
+                </ul>
+            </div>
+            <div class="fancy-edu-item">
+                <div class="edu-title">Android Development Path – Bangkit Academy</div>
+                <div class="edu-period">Feb 2022 – Jul 2022 · Remote · Distinction Graduate</div>
+                <ul>
+                    <li>MVVM Architecture, Retrofit, Room Database, 5 Dicoding certificates</li>
+                    <li>Capstone: TBCheck — tuberculosis detection via X-ray images</li>
+                </ul>
+            </div>
+        </div>
+
+
+        <!-- Portfolio -->
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="#">Portfolio</a></h2>
+            <div class="fancy-portfolio-grid">
+                <div class="fancy-pf-card">
+                    <div class="pf-name">Selakata</div>
+                    <div class="pf-type">iOS App</div>
+                    <p>AI voice cloning for personalized auditory training. MVVM Clean Architecture, AVFoundation, API integration.</p>
+                </div>
+                <a class="fancy-pf-card" href="./pf/kademi.html" target="_blank">
+                    <div class="pf-name">Kademi</div>
+                    <div class="pf-type">Android App</div>
+                    <p>Academic app helping students manage their academic activities more efficiently.</p>
+                </a>
+                <a class="fancy-pf-card" href="https://github.com/TBCheck/Mobile-Development" target="_blank">
+                    <div class="pf-name">TBCheck</div>
+                    <div class="pf-type">Capstone · Android</div>
+                    <p>Tuberculosis detection using X-ray images with Kotlin and TFLite.</p>
+                </a>
+                <a class="fancy-pf-card" href="https://www.youtube.com/c/Elgensip" target="_blank">
+                    <div class="pf-name">Elgensip</div>
+                    <div class="pf-type">YouTube · Tech</div>
+                    <p>YouTube channel sharing programming and technology content.</p>
+                </a>
+            </div>
+            <p style="margin-top:16px;">More on <a href="https://github.com/raiszainuri" target="_blank">GitHub →</a></p>
+        </div>
+
+        <!-- Skills -->
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="#">Skills</a></h2>
+
+            <div class="fancy-skill-group">
+                <div class="fancy-skill-label">Languages</div>
+                <div class="fancy-tags">
+                    <span class="fancy-tag">Java</span>
+                    <span class="fancy-tag">Kotlin</span>
+                    <span class="fancy-tag">Swift</span>
+                    <span class="fancy-tag">XML</span>
+                    <span class="fancy-tag">PHP</span>
+                    <span class="fancy-tag">C#</span>
+                </div>
+            </div>
+
+            <div class="fancy-skill-group">
+                <div class="fancy-skill-label">Frameworks & UI</div>
+                <div class="fancy-tags">
+                    <span class="fancy-tag green">Jetpack Compose</span>
+                    <span class="fancy-tag green">SwiftUI</span>
+                    <span class="fancy-tag green">LINQ</span>
+                </div>
+            </div>
+
+            <div class="fancy-skill-group">
+                <div class="fancy-skill-label">Libraries</div>
+                <div class="fancy-tags">
+                    <span class="fancy-tag purple">Coroutine Flow</span>
+                    <span class="fancy-tag purple">AVFoundation</span>
+                </div>
+            </div>
+
+            <div class="fancy-skill-group">
+                <div class="fancy-skill-label">Developer Tools</div>
+                <div class="fancy-tags">
+                    <span class="fancy-tag">Git</span>
+                    <span class="fancy-tag">Firebase</span>
+                    <span class="fancy-tag">Android Studio</span>
+                    <span class="fancy-tag">Xcode</span>
+                </div>
+            </div>
+
+            <div class="fancy-skill-group">
+                <div class="fancy-skill-label">Database</div>
+                <div class="fancy-tags">
+                    <span class="fancy-tag">SQL Server</span>
+                    <span class="fancy-tag">phpMyAdmin</span>
+                </div>
+            </div>
+
+            <div class="fancy-skill-group" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
+                <div class="fancy-skill-label">Architecture & Practices</div>
+                <div class="fancy-tags">
+                    <span class="fancy-tag">MVVM</span>
+                    <span class="fancy-tag">Clean Code</span>
+                    <span class="fancy-tag">API Integration</span>
+                    <span class="fancy-tag">Audio Management</span>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Certifications -->
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="#">Certifications</a></h2>
+            <ul class="fancy-cert-list">
+                <li><a href="https://www.credential.net/e0c5db62-a523-41d4-aa71-913a4c84f8f2" target="_blank">Associate Android Developer (Google)</a></li>
+                <li><a href="https://www.dicoding.com/certificates/ERZR0W8WQXYV" target="_blank">Menjadi Android Developer Expert (Dicoding)</a></li>
+                <li><a href="https://www.dicoding.com/certificates/EYX427DD5ZDL" target="_blank">Belajar Pengembangan Aplikasi Android Intermediate (Dicoding)</a></li>
+                <li><a href="https://www.dicoding.com/certificates/81P21VR3NZOY" target="_blank">Belajar Prinsip Pemrograman SOLID (Dicoding)</a></li>
+            </ul>
+        </div>
+
+        <!-- Blog -->
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="./blog/list_blog">Blog</a></h2>
+            <ul class="fancy-blog-list">
+                <li>
+                    <a href="https://medium.com/@raiszainuri/980-hari-melawan-efek-dunning-kruger-f45971b2e5cb" target="_blank">980 Days to Avoid Dunning Krueger Effects</a>
+                    Surviving the Dunning-Kruger effect during the early years of learning programming.
+                </li>
+                <li>
+                    <a href="./blog/2021/08/21-memperbaiki-font-netbeans-yang-rusak/" target="_blank">Fix Anti-Aliasing Java App Font in Arch Linux</a>
+                    How to fix non-smooth fonts on Java-based applications in Arch Linux.
+                </li>
+            </ul>
+            <p style="margin-top:14px;">More at <a href="./blog/list_blog">the blog →</a></p>
+        </div>
+
+        <!-- ML -->
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="./ml/index.html">Machine Learning</a></h2>
+            <ul class="fancy-blog-list">
+                <li>
+                    <a href="./ml/index.html">Lung Check</a>
+                    Detecting lung diseases from X-ray images using a TensorFlow.js model in the browser.
+                </li>
+            </ul>
+        </div>
+
+        <!-- Dotfiles -->
+        <div class="fancy-section">
+            <h2><a class="subtitle" href="https://github.com/raiszainuri/dotfiles">Dotfiles & Config Backup</a></h2>
+            <p>A GitHub repo containing my Linux desktop configuration files — Neovim, fish, window manager, and more. Easy to restore on any new machine.</p>
+            <p><a href="https://github.com/raiszainuri/dotfiles" target="_blank">View repository →</a></p>
+        </div>
+
+        <div class="fancy-footer">raiszainuri.github.io</div>
+
+    </div>
+</div><!-- end #fancy-content -->
+
+
 <script src="dist/js/masonry.pkgd.min.js"></script>
+<script src="dist/js/mode.js"></script>
+</body>
 </html>
